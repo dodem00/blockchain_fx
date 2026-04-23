@@ -1,0 +1,14 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subtitles",NAME="English",AUTOSELECT=NO,DEFAULT=NO,FORCED=NO,LANGUAGE="eng",CHARACTERISTICS="public.accessibility.transcribes-spoken-dialog,public.accessibility.describes-music-and-sound",URI="https://fast.wistia.net/embed/captions/rln8cnlwja.m3u8?language=eng"
+
+#EXT-X-STREAM-INF:AVERAGE_BANDWIDTH=574705,BANDWIDTH=2057728,RESOLUTION=1280x720,NAME="720p",SUBTITLES="subtitles"
+https://embed-cloudfront.wistia.com/deliveries/7988b7ab689001ec65bda56328dac3a6991b3dd3.m3u8
+#EXT-X-STREAM-INF:AVERAGE_BANDWIDTH=205547,BANDWIDTH=290872,RESOLUTION=400x224,NAME="224p",SUBTITLES="subtitles"
+https://embed-cloudfront.wistia.com/deliveries/bd3fba8cb97d294f2a4b8c7973334be04e9716bc.m3u8
+#EXT-X-STREAM-INF:AVERAGE_BANDWIDTH=292035,BANDWIDTH=688040,RESOLUTION=640x360,NAME="360p",SUBTITLES="subtitles"
+https://embed-cloudfront.wistia.com/deliveries/9af480305efee10b3b8702a6748bba19e5ce0699.m3u8
+#EXT-X-STREAM-INF:AVERAGE_BANDWIDTH=425802,BANDWIDTH=1080240,RESOLUTION=960x540,NAME="540p",SUBTITLES="subtitles"
+https://embed-cloudfront.wistia.com/deliveries/038dcd7f5467e6747a151ba58349ad42c83bcd56.m3u8
+#EXT-X-STREAM-INF:AVERAGE_BANDWIDTH=903683,BANDWIDTH=2745208,RESOLUTION=1920x1080,NAME="1080p",SUBTITLES="subtitles"
+https://embed-cloudfront.wistia.com/deliveries/55e49683d94b0ad1f86aefd061793af304a8315b.m3u8
